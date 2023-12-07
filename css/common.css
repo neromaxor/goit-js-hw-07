@@ -189,7 +189,7 @@ h1 {
   padding: 8px 16px;
   justify-content: center;
   align-items: center;
-  width: 86px;
+  
   height: 40px;
   gap: 10px;
   border-radius: 8px;
@@ -217,7 +217,7 @@ h1 {
  .change-color {
    margin-left: auto;
    margin-right: auto;
-   width: auto;
+   width: 149px;
    height: 40px;
    display: flex;
    padding: 8px 16px;
@@ -263,7 +263,7 @@ h1 {
 
  .widget p {
    width: auto;
-   height: 24px;
+   height: 23px;
    margin-top: 10%;
    color: #2E2F42;
    font-family: Montserrat;
@@ -273,3 +273,105 @@ h1 {
    line-height: 1.5;
    letter-spacing: 0.04em;
  }
+ /* ==========Task-6================ */
+    #controls {
+      margin-left: auto;
+      margin-right: auto;
+      width: 486px;
+      height: 104px;
+      display: flex;
+      padding: 32px;
+      align-items: flex-start;
+      gap: 16px;
+      border-radius: 8px;
+      background: #F6F6FE;
+      padding: 32px;
+    }
+  
+    #controls input {
+      display: flex;
+      padding: 8px 72px;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      border-radius: 8px;
+      border: 1px solid #808080;
+      color: #2E2F42;
+      height: 37px;
+      font-family: Montserrat;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 1, 5;
+      letter-spacing: 0.04em;
+    }
+  
+    #controls button:nth-child(2) {
+      display: flex;
+      width: 120px;
+      padding: 8px 16px;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      border-radius: 8px;
+      background: #4E75FF;
+      border-color: transparent;
+      transition: background-color 0, 3s;
+  
+      color: #FFF;
+  
+      font-family: Montserrat;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 1, 5;
+      letter-spacing: 0.04em;
+    }
+  
+    #controls button:nth-child(2):hover {
+      background: #6C8CFF;
+    }
+  
+  
+  
+    #controls button:nth-child(3) {
+      display: flex;
+      width: 120px;
+      padding: 8px 16px;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      border-color: transparent;
+      border-radius: 8px;
+      background: #FF4E4E;
+      color: #FFF;
+      transition: background-color 0, 3s;
+  
+      font-family: Montserrat;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 1, 5;
+      letter-spacing: 0.04em;
+    }
+  
+    #controls button:nth-child(3):hover {
+      background: #FF7070;
+    }
+  
+    #boxes {
+      margin-top: 16px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 468px;
+      height: auto;
+      display: flex;
+      width: 486px;
+      padding: 32px;
+      flex-direction: row;
+      align-items: flex-start;
+      gap: 10px;
+      border-radius: 8px;
+      background: #F6F6FE;
+    }
